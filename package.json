@@ -16,8 +16,7 @@
     "test": "npm run prettier && npm run lint && npm run typings-checker && npm run jest && npm run docs",
     "clean": "rm -rf lib/*",
     "build": "npm run clean && tsc",
-    "docs": "docs-ts",
-    "postinstall": "cd ./node_modules/money-ts && npm install && npm run build"
+    "docs": "docs-ts"
   },
   "repository": {
     "type": "git",
